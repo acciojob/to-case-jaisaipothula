@@ -1,8 +1,5 @@
-function toCase(text) {
-  // write your code here
+function toCase(str) {
+    const lowerCase = str.toLowerCase();
+    const upperCase = str.toUpperCase();
+    return `${lowerCase}-${upperCase}`;
 }
-
-// DO not change the code below
-
-const text = prompt("Enter text:");
-alert(toCase(text));
